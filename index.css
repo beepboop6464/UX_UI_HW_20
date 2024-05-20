@@ -1,0 +1,84 @@
+div {
+    margin: 20px; /* Adjust the amount of margin around the div */
+  }
+  
+  .main-content {
+    display: flex;
+  }
+  .numbered-list {
+    list-style-type: decimal; /* Use decimal numbers */
+}
+ /* Import Oswald font */
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+ /* Apply Oswald font to all <h1> elements */
+ h1 {
+     font-family: 'Oswald', sans-serif;
+     font-weight: 700; /* Ensure bold weight */
+     font-size: 48pt; /* Set font size to 64 points */
+ }
+ /* Import Inter font */
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+ /* Apply Inter font to all <h3> elements */
+ h3 {
+     font-family: 'Inter', sans-serif;
+     font-weight: 700; /* Ensure bold weight */
+     font-size: 25pt; /* Set font size to 34 points */
+ }
+ /* Import Roboto font */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+ /* Apply Roboto font to all <p> elements and <li> elements */
+ p, li {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400; /* Regular weight */
+     font-size: 18pt; /* Set font size to 24 points */
+ }
+/* Intro */
+.intro-content {
+    display: flex;
+  }
+  
+  .intro-content p {
+    margin-right: 10px; }
+
+/* phase 2 */
+.persona-section {
+    display: flex;
+    align-items: flex-start;
+}
+
+.persona-section > * {
+    flex: 1;
+    margin: 10px;
+}
+
+.persona-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.persona-section ul {
+    margin-top: 0; /* Remove default margin of ul */
+    padding-left: 20px; /* Indent the list items */
+}
+/* phase 3 */
+.sitemap-images {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.sitemap-images img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px; /* Add spacing between images */
+}
+/* phase 5 */
+.navigation-container {
+    display: flex;
+}
+.navigation-container img {
+    transform: scale(0.8);
+    margin-right: 10px; /* Adjust as needed */
+}
